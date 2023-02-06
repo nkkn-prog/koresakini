@@ -8,8 +8,8 @@ use App\Http\Controllers\Controller;
 class TaskController extends Controller
 {
     //
-    public function Hello()
+    public function index()
     {
-        return view('hello');
+        return view('index');
     }
 }

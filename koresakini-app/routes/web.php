@@ -18,4 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', [TaskController::class, 'Hello']);
+Route::get('/index', [TaskController::class, 'index']);
+Route::get('/create',function() {
+    return view('create');
+});
