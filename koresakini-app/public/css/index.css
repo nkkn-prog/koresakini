@@ -1,0 +1,10 @@
+.first-msg {
+  border: solid #000;
+}
+.textbox {
+  width: 300px;
+}
+.textarea {
+  width: 300px;
+  height:100px;
+}
